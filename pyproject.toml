@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "host_blog_app"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "flask",
+    "flask-sqlalchemy",
+    "gunicorn"
+]
+
+[tool.setuptools]
+packages = ["host_blog_app"]
