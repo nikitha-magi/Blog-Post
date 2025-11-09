@@ -1,6 +1,6 @@
 "module to get config as dict"
 
-def get_config(file="instance/config.py"):
+def get_config(file="config.py"):
     config = {}
     with open(file, 'r') as conf:
         while line:=conf.readline():
